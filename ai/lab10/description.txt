@@ -1,0 +1,48 @@
+Description (steps in solving the problem):
+    -> fuzzify the input (how much it belongs to each class)
+    -> for each given rule evaluate how much it complies to the current rule based on the fuzzy values
+    -> the evaluation is made by a conjunction between probability of each class involved in a rule
+    -> for each output class compute the maximum probability
+    -> used Sugeno model with centroid area
+=== BEGAN COMPUTATION FOR INPUT: {'temperature': 41, 'capacity': 4}
+compute rule values for fuzzy values: {'temperature': {'cold': 0.45, 'cool': 0.55, 'moderate': 0, 'hot': 0, 'veryhot': 0}, 'capacity': {'small': 0.2, 'medium': 0.5, 'high': 0}}
+list of input values for input {'temperature': 'cold', 'capacity': 'small'}: [0.45, 0.2]
+list of input values for input {'temperature': 'cold', 'capacity': 'medium'}: [0.45, 0.5]
+list of input values for input {'temperature': 'cold', 'capacity': 'high'}: [0.45, 0]
+list of input values for input {'temperature': 'cool', 'capacity': 'small'}: [0.55, 0.2]
+list of input values for input {'temperature': 'cool', 'capacity': 'medium'}: [0.55, 0.5]
+list of input values for input {'temperature': 'cool', 'capacity': 'high'}: [0.55, 0]
+list of input values for input {'temperature': 'moderate', 'capacity': 'small'}: [0, 0.2]
+list of input values for input {'temperature': 'moderate', 'capacity': 'medium'}: [0, 0.5]
+list of input values for input {'temperature': 'moderate', 'capacity': 'high'}: [0, 0]
+list of input values for input {'temperature': 'hot', 'capacity': 'small'}: [0, 0.2]
+list of input values for input {'temperature': 'hot', 'capacity': 'medium'}: [0, 0.5]
+list of input values for input {'temperature': 'hot', 'capacity': 'high'}: [0, 0]
+list of input values for input {'temperature': 'veryhot', 'capacity': 'small'}: [0, 0.2]
+list of input values for input {'temperature': 'veryhot', 'capacity': 'medium'}: [0, 0.5]
+list of input values for input {'temperature': 'veryhot', 'capacity': 'high'}: [0, 0]
+fuzzy values: {'temperature': {'cold': 0.45, 'cool': 0.55, 'moderate': 0, 'hot': 0, 'veryhot': 0}, 'capacity': {'small': 0.2, 'medium': 0.5, 'high': 0}}
+rule values: [[{'power': 'small'}, 0.2], [{'power': 'medium'}, 0.45], [{'power': 'high'}, 0], [{'power': 'small'}, 0.2], [{'power': 'medium'}, 0.5], [{'power': 'high'}, 0], [{'power': 'small'}, 0], [{'power': 'small'}, 0], [{'power': 'small'}, 0], [{'power': 'small'}, 0], [{'power': 'small'}, 0], [{'power': 'small'}, 0], [{'power': 'small'}, 0], [{'power': 'small'}, 0], [{'power': 'small'}, 0]]
+centroid records: [(10, 0.5), (0, 0.2), (20, 0)]
+>>> OBTAINED OUTPUT PARAMETER: 7.142857142857143
+=== BEGAN COMPUTATION FOR INPUT: {'temperature': 45, 'capacity': 6}
+compute rule values for fuzzy values: {'temperature': {'cold': 0.25, 'cool': 0.75, 'moderate': 0, 'hot': 0, 'veryhot': 0}, 'capacity': {'small': 0, 'medium': 0.5, 'high': 0.2}}
+list of input values for input {'temperature': 'cold', 'capacity': 'small'}: [0.25, 0]
+list of input values for input {'temperature': 'cold', 'capacity': 'medium'}: [0.25, 0.5]
+list of input values for input {'temperature': 'cold', 'capacity': 'high'}: [0.25, 0.2]
+list of input values for input {'temperature': 'cool', 'capacity': 'small'}: [0.75, 0]
+list of input values for input {'temperature': 'cool', 'capacity': 'medium'}: [0.75, 0.5]
+list of input values for input {'temperature': 'cool', 'capacity': 'high'}: [0.75, 0.2]
+list of input values for input {'temperature': 'moderate', 'capacity': 'small'}: [0, 0]
+list of input values for input {'temperature': 'moderate', 'capacity': 'medium'}: [0, 0.5]
+list of input values for input {'temperature': 'moderate', 'capacity': 'high'}: [0, 0.2]
+list of input values for input {'temperature': 'hot', 'capacity': 'small'}: [0, 0]
+list of input values for input {'temperature': 'hot', 'capacity': 'medium'}: [0, 0.5]
+list of input values for input {'temperature': 'hot', 'capacity': 'high'}: [0, 0.2]
+list of input values for input {'temperature': 'veryhot', 'capacity': 'small'}: [0, 0]
+list of input values for input {'temperature': 'veryhot', 'capacity': 'medium'}: [0, 0.5]
+list of input values for input {'temperature': 'veryhot', 'capacity': 'high'}: [0, 0.2]
+fuzzy values: {'temperature': {'cold': 0.25, 'cool': 0.75, 'moderate': 0, 'hot': 0, 'veryhot': 0}, 'capacity': {'small': 0, 'medium': 0.5, 'high': 0.2}}
+rule values: [[{'power': 'small'}, 0], [{'power': 'medium'}, 0.25], [{'power': 'high'}, 0.2], [{'power': 'small'}, 0], [{'power': 'medium'}, 0.5], [{'power': 'high'}, 0.2], [{'power': 'small'}, 0], [{'power': 'small'}, 0], [{'power': 'small'}, 0], [{'power': 'small'}, 0], [{'power': 'small'}, 0], [{'power': 'small'}, 0], [{'power': 'small'}, 0], [{'power': 'small'}, 0], [{'power': 'small'}, 0]]
+centroid records: [(10, 0.5), (0, 0), (20, 0.2)]
+>>> OBTAINED OUTPUT PARAMETER: 12.857142857142858

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>749</width>
+       <height>525</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+     <layout class="QVBoxLayout" name="verticalLayout_6">
+   <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_13">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_12">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout">
+             <item>
+              <widget class="QLabel" name="label">
+               <property name="text">
+                <string>n =</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="nLineEdit"/>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <item>
+              <widget class="QLabel" name="label_2">
+               <property name="text">
+                <string>s =</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="sLineEdit"/>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_3">
+             <item>
+              <widget class="QLabel" name="label_3">
+               <property name="text">
+                <string>t =</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="tLineEdit"/>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_4">
+             <item>
+              <widget class="QLabel" name="label_4">
+               <property name="text">
+                <string>iterations=</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="iterationsLineEdit"/>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_5">
+             <item>
+              <widget class="QLabel" name="label_5">
+               <property name="text">
+                <string>mutation=</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="mutationLineEdit"/>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_6">
+             <item>
+                 <widget class="QLabel" name="label_7">
+               <property name="text">
+                <string>population=</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="populationLineEdit"/>
+             </item>
+            </layout>
+           </item>
+              <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_7">
+                      <item>
+                          <widget class="QLabel" name="label_6">
+                              <property name="text">
+                                  <string>inertia=</string>
+                              </property>
+                          </widget>
+                      </item>
+                      <item>
+                          <widget class="QLineEdit" name="inertiaLineEdit"/>
+                      </item>
+                  </layout>
+              </item>
+              <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_9">
+                      <item>
+                          <widget class="QLabel" name="label_8">
+                              <property name="text">
+                                  <string>cognitive=</string>
+                              </property>
+                          </widget>
+                      </item>
+                      <item>
+                          <widget class="QLineEdit" name="cognitiveLineEdit"/>
+                      </item>
+                  </layout>
+              </item>
+              <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_10">
+                      <item>
+                          <widget class="QLabel" name="label_9">
+                              <property name="text">
+                                  <string>social=</string>
+                              </property>
+                          </widget>
+                      </item>
+                      <item>
+                          <widget class="QLineEdit" name="socialLineEdit"/>
+                      </item>
+                  </layout>
+              </item>
+              <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_11">
+                      <item>
+                          <widget class="QLabel" name="label_10">
+                              <property name="text">
+                                  <string>nbhdsize =</string>
+                              </property>
+                          </widget>
+                      </item>
+                      <item>
+                          <widget class="QLineEdit" name="neighbourhoodLineExit"/>
+                      </item>
+                  </layout>
+              </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <widget class="QRadioButton" name="hcRadioButton">
+             <property name="text">
+              <string>HC</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="eaRadioButton">
+             <property name="text">
+              <string>EA</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="psoRadioButton">
+             <property name="text">
+              <string>PSO</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_8">
+           <item>
+            <widget class="QPushButton" name="goButton">
+             <property name="text">
+              <string>GO</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="stopButton">
+             <property name="text">
+              <string>STOP</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="currentIterationButton">
+           <property name="text">
+            <string>Get current iteration</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="validateEAButton">
+           <property name="text">
+            <string>Validate EA Plot</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="validatePSOButton">
+           <property name="text">
+            <string>Validate PSO Plot</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QTextEdit" name="solutionTextEdit"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="bestSolutionButton">
+         <property name="text">
+          <string>Get best solution</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

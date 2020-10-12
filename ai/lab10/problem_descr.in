@@ -1,0 +1,14 @@
+temperature 5
+cold trap -1000 20 30 50
+cool tri 30 50 70
+moderate tri 60 70 80
+hot tri 70 90 110
+veryhot trap 90 110 120 1000
+capacity 3
+small tri -1000 0 5
+medium tri 3 5 7
+high tri 5 10 1000
+power 3 out
+small tri -1000 0 10
+medium tri 5 10 15
+high tri 10 20 1000
