@@ -13,3 +13,6 @@
 * **Computer Networks** ([compnet](https://github.com/razvanw0w/university/tree/master/compnet))
 * **Databases** ([db](https://github.com/razvanw0w/university/tree/master/db))
 * **Systems for Design and Implementation** ([sdi](https://github.com/razvanw0w/sdi))
+* **Databases** ([dbms](https://github.com/razvanw0w/university/tree/master/dbms))
+* **Software Engineering** ([se](https://github.com/razvanw0w/university/tree/master/se)
+* **Artificial Intelligence** ([ai](https://github.com/razvanw0w/university/tree/master/ai)))
