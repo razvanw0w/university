@@ -12,3 +12,4 @@
 * **Advanced Programming Methods** ([map](https://github.com/razvanw0w/university/tree/master/map/ToyLanguageInterpreter))
 * **Computer Networks** ([compnet](https://github.com/razvanw0w/university/tree/master/compnet))
 * **Databases** ([db](https://github.com/razvanw0w/university/tree/master/db))
+* **Systems for Design and Implementation** ([sdi](https://github.com/razvanw0w/sdi))
